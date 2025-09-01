@@ -12,4 +12,9 @@ plugins {
 
 subprojects {
     apply<DetektPlugin>()
+
+    detekt {
+        config.setFrom(rootProject.file(".detekt/detekt.yml"))
+        buildUponDefaultConfig = true
+    }
 }
