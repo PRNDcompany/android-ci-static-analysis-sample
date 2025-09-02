@@ -1,3 +1,7 @@
 naming:
   FunctionNaming:
     ignoreAnnotated: [ 'Composable' ]
+
+style:
+  FunctionOnlyReturningConstant:
+    severity: error
