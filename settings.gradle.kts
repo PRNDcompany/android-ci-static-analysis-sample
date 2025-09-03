@@ -23,3 +23,4 @@ rootProject.name = "AndroidCiStaticAnalysisSample"
 include(":app")
 include(":apple")
 include(":banana")
+include(":code-quality")
