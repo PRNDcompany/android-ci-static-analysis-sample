@@ -5,3 +5,7 @@ naming:
 style:
   FunctionOnlyReturningConstant:
     severity: error
+
+prnd:
+  NoPrintln:
+    active: true

@@ -30,4 +30,8 @@ subprojects {
             input.from(this@detekt.sarifReportFile)
         }
     }
+
+    dependencies {
+        detektPlugins(project(":code-quality"))
+    }
 }
